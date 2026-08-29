@@ -228,6 +228,9 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
   .text-\[14px\] {
     font-size: 14px;
   }
@@ -251,11 +254,8 @@
     outline-width: 1px;
   }
   @media (width >= 48rem) {
-    .md\:px-15 {
-      padding-inline: calc(var(--spacing) * 15);
-    }
-    .md\:py-5 {
-      padding-block: calc(var(--spacing) * 5);
+    .md\:px-\[80px\] {
+      padding-inline: 80px;
     }
   }
 }
