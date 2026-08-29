@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "e:\\N8\\уроки\\1-месец\\все дз\\2-мсеяц дз\\дз\\урок4",
+			"problemMatcher": [],
+			"label": "Live Preview: Запустить сервер"
+		}
+	]
+}

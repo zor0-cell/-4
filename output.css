@@ -167,48 +167,21 @@
   .flex {
     display: flex;
   }
-<<<<<<< HEAD
-=======
-  .table {
-    display: table;
-  }
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
   .h-full {
     height: 100%;
   }
-<<<<<<< HEAD
-=======
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
   .items-center {
     align-items: center;
   }
   .justify-between {
     justify-content: space-between;
   }
-<<<<<<< HEAD
   .gap-2\.5 {
     gap: calc(var(--spacing) * 2.5);
   }
-=======
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
-  .gap-2\.5 {
-    gap: calc(var(--spacing) * 2.5);
-  }
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
-  }
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
   .gap-6\.25 {
     gap: calc(var(--spacing) * 6.25);
   }
@@ -231,25 +204,11 @@
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
-<<<<<<< HEAD
-  .px-15 {
-    padding-inline: calc(var(--spacing) * 15);
-=======
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
-  }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
-<<<<<<< HEAD
-=======
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
-  }
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
   }
   .text-\[14px\] {
     font-size: 14px;
@@ -266,43 +225,24 @@
   .no-underline {
     text-decoration-line: none;
   }
-<<<<<<< HEAD
-=======
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   @media (width >= 48rem) {
-    .md\:px-\[80px\] {
-      padding-inline: 80px;
+    .md\:px-15 {
+      padding-inline: calc(var(--spacing) * 15);
+    }
+    .md\:py-5 {
+      padding-block: calc(var(--spacing) * 5);
     }
   }
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
 }
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
-<<<<<<< HEAD
-=======
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
-<<<<<<< HEAD
-=======
-      --tw-outline-style: solid;
->>>>>>> 639803b061a8bef1672ed716559240549d96572d
     }
   }
 }
